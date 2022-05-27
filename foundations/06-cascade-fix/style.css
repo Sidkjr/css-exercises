@@ -3,32 +3,38 @@
   color: hsl(0, 100%, 50%);
 }
 
-.small-para {
-  font-size: 14px;
+.para.small-para {
+  font-size: 24px;
 }
 
 .para {
-  font-size: 22px;
+  font-size: 58px;
 }
 
-.confirm {
+.button.confirm {
   background: green;
   color: white;
   font-weight: bold;
+  font-size: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 } 
 
-.button {
+.button.cancel {
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  font-size: 20px;
+  font-size: 50px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.child {
+.text.child {
   color: red;
   font-size: 14px;
 }
 
 div.text {
   color: green;
-  font-size: 22px;
+  font-size: 32px;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
